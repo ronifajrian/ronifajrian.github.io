@@ -1,0 +1,5 @@
+var footer = document.createElement("div")
+footer.setAttribute("class","footer")
+var txtFooter = document.createTextNode("copyright © by M. Zamroni Fajrian")
+footer.appendChild(txtFooter)
+document.body.appendChild(footer)
